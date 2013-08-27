@@ -11,19 +11,21 @@
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
-</head>
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
   <body ng-app="readingApp">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <!-- build:js scripts/lt-ie9.js -->
     <!--[if lt IE 9]>
       <script src="bower_components/es5-shim/es5-shim.js"></script>
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
+    <!-- endbuild -->
 
     <!-- Add your site or application content here -->
     <div class="container" ng-view=""></div>
@@ -31,30 +33,30 @@
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
 
-        <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/bootstrap-sass/js/bootstrap-affix.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-alert.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-dropdown.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-tooltip.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-modal.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-transition.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-button.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-popover.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-typeahead.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-carousel.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-scrollspy.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-collapse.js"></script>
-        <script src="bower_components/bootstrap-sass/js/bootstrap-tab.js"></script>
-        <!-- endbuild -->
+    <!-- build:js scripts/plugins.js -->
+    <script src="bower_components/bootstrap-sass/js/bootstrap-affix.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-alert.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-dropdown.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-tooltip.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-modal.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-transition.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-button.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-popover.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-typeahead.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-carousel.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-scrollspy.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-collapse.js"></script>
+    <script src="bower_components/bootstrap-sass/js/bootstrap-tab.js"></script>
+    <!-- endbuild -->
 
-        <!-- build:js scripts/modules.js -->
-        <script src="bower_components/angular-resource/angular-resource.js"></script>
-        <script src="bower_components/angular-adn/dist/angular-adn.js"></script>
-        <!-- endbuild -->
+    <!-- build:js scripts/modules.js -->
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-adn/dist/angular-adn.js"></script>
+    <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <!-- endbuild -->
-</body>
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <!-- endbuild -->
+  </body>
 </html>
