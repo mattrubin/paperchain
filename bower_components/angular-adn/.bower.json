@@ -1,0 +1,27 @@
+{
+  "name": "angular-adn",
+  "version": "0.0.12",
+  "dependencies": {
+    "purl": "~2.3.1",
+    "underscore": "~1.5.1",
+    "angular-unstable": "~1.1.5",
+    "jquery": "~2.0.3",
+    "angular-ui": "~0.4.0",
+    "select2": "~3.4.2"
+  },
+  "devDependencies": {
+    "angular-unstable": "latest",
+    "angular-mocks": "~1.0.7",
+    "jquery": "latest"
+  },
+  "homepage": "https://github.com/appdotnet/angular-adn",
+  "_release": "0.0.12",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.12",
+    "commit": "d1f58c98123a27fb977ee5a830fe371e96ea6020"
+  },
+  "_source": "git://github.com/appdotnet/angular-adn.git",
+  "_target": "~0.0.12",
+  "_originalSource": "angular-adn"
+}
