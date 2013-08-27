@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('readingApp')
+angular.module('paperchain')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

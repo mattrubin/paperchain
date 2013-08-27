@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('readingApp', [])
+angular.module('paperchain', [])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
